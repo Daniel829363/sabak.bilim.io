@@ -1,0 +1,49 @@
+img {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 3px solid red;
+}
+h1 {
+  color: blue;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+.btn1 {
+  color: yellow;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-size: 24px;
+  width: 100px;
+  height: 50px;
+  transform: rotate(30deg);
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+.btn2 {
+  color: yellow;
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-size: 24px;
+  width: 100px;
+  height: 50px;
+  transform: rotate(-30deg);
+}
+input {
+  color: blue;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid blue;
+  font-size: 24px;
+  width: 200px;
+  height: 35px;
+}
+::placeholder {
+  color: red;
+}
+html {
+  background-color: yellow;
+}

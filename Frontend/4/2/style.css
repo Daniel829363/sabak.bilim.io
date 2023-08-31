@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: #f8f8f8;
+}
+.hero-info h1 {
+  color: #272727;
+  font-size: 224px;
+  font-weight: 300;
+  margin: 50px 15px;
+}
+.hero-info p {
+  color: var(--unnamed, #161515);
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 155%;
+}
+.hero-info button {
+  padding: 15px 50px;
+  font-size: 32px;
+  font-weight: 300;
+  border: none;
+  margin: 60px 2px;
+}
+.btn-1 {
+  background: var(--unnamed, #161515);
+  color: #fff;
+}
+.btn-2 {
+  background: #fff;
+  color: #272727;
+  box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
+}
+.models {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.img-b {
+  width: 417px;
+  height: 630px;
+  background: #f8f8f8;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin-top: 84px;
+}
+.img-b img {
+  width: 286px;
+  height: 410px;
+  object-fit: cover;
+  margin-left: 80px;
+}
+.models h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+}
+.models h1 {
+  color: #000;
+  font-size: 72px;
+  font-weight: 400;
+}
+.models h2 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 67px;
+  margin-bottom: 17px;
+}
+.models h4 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 17px;
+}
+.models p {
+  color: var(--unnamed, #161515);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+  text-align: center;
+}
+.models h5 {
+  color: var(--unnamed, #161515);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 170%; /* 40.8px */
+  margin-top: 50px;
+  margin-bottom: 140px;
+  text-align: center;
+}
+.models h5 span {
+  color: #bb8b5d;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 170%;
+  text-decoration-line: underline;
+}
+.line {
+  width: 178.025px;
+  height: 1px;
+  background: #707070;
+}
